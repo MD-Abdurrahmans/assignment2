@@ -491,10 +491,23 @@ font-weight: 600;
 .button-container .button{
     border-radius: 50px;
     background: #FFF;
-    border: 1px solid #F948B2;
     padding: 5px 8px;
-  
+    position: relative;
+   
+   border: 1px solid white;
 }
+
+
+.button-container .button:hover .button-title{
+    color: #F948B2;
+    cursor: pointer;
+
+}
+
+.button:hover{
+    border: 1px solid #F948B2;
+}
+
 
 
 /* section6 buttons container styles end  */
