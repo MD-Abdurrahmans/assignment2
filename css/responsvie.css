@@ -1,33 +1,214 @@
 @media screen and (min-width:576px) and (max-width:992px) {
-    
-   
-    .menu> ul{
+    .section-title {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+
+    .menu>ul {
         flex-wrap: wrap;
         align-items: center;
-    gap: 30px;
-    }
-    .menu .nav-btn{
-        padding: 15px 6px;
-       
-    
+        gap: 30px;
     }
 
+    .menu .nav-btn {
+        padding: 15px 6px;
+
+
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+
+
+    }
+
+    .banner-text,
+    .careers-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8rem;
+    }
+
+    .banner-text,
+    .banner-image
+     {
+        width: 100%;
+    }
+    
+    .careers-text,.careers-image {
+width: 90%;
+    }
+
+    .online-funny-video-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+      
+    }
+    .footer-container{
+        max-width: 1240px;
+        margin:0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        
+    }
+
+    .footer-small-flex> .grid-container{
+        display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    }
+    .footer-small-flex ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-container .logo {
+        width: 40%;
+        display: flex;
+        align-items: center;
+    }
 
 }
+
+
+
+
+
 
 
 @media screen and (max-width:576px) {
-    
-   .nav-container,.menu>ul{
-       flex-direction: column;
-       align-items: center;
-   }
-   .menu >ul{
-    gap: 30px;
-   }
-   .menu .nav-btn{
-    padding: 15px 6px;
-   
 
+    .section-title {
+        font-size: 2rem;
+    }
+    .btn {
+        padding: 8px 14px;
+    }
+
+    .menu>ul,
+    .section3 .play-text,
+    .section4 .play-text  {
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-container,
+    .menu>ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu>ul {
+        gap: 30px;
+    }
+
+    .menu .nav-btn {
+        padding: 15px 6px;
+
+
+    }
+
+    .banner-container,
+    .play-instantly-container,
+    .play-online-game-container {
+
+        flex-direction: column-reverse;
+    }
+
+    .banner-text,
+    .we-are-gamer-container,
+    .careers-container,
+    .footer-small-flex ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8rem;
+    }
+
+    .banner-text,
+    .banner-image
+   {
+        width: 100%;
+    }
+
+    .section3 .play-image,.section4 .play-image,
+    .careers-text,.careers-image  {
+        width:80%;
+    }
+    .banner-text .banner-greeting {
+        font-size: 2.2rem;
+    }
+
+    .banner-text .banner-title {
+        font-size: 4.5rem;
+    }
+
+
+    .we-are-gamer-container .gamer-text,
+    .gamer-image {
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+    .online-funny-video-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+      
+    }
+.two-way-container li{
+    font-size: 0.8rem;
 }
+   
+    .btn-white{
+       font-size: 1rem;
+    }
+
+    .section6 .button-container{
+
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+  
+    .button-container .small-flex img{
+        width: 20%;
+        height: 20%;
+      }
+      .button-container .small-flex p{
+        font-size: 0.7rem;
+      }
+
+
+
+
+
+      
+    .footer-small-flex> .grid-container{
+        display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    }
+    .footer-small-flex ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-container .logo {
+        width: 40%;
+        display: flex;
+        align-items: center;
+    }
+
 }
